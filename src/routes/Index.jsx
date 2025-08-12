@@ -9,6 +9,8 @@ import ResetPassword from "../components/auth/reset";
 const Home = lazy(() => import("../components/pages/home"));
 const About = lazy(() => import("../components/pages/about"));
 const Institution = lazy(() => import("../components/pages/institution"));
+const Faqs = lazy(() => import("../components/pages/faqs"));
+const Hubs = lazy(() => import("../components/pages/hub"));
 const Privacy = lazy(() => import("../components/pages/privacy"));
 const Contact = lazy(() => import("../components/pages/contact"));
 const Login = lazy(() => import("../components/auth/login"));
@@ -35,6 +37,8 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/institutions" element={<Institution />} />
+        <Route path="/faqs" element={<Faqs />} />
+        <Route path="/hub" element={<Hubs />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />

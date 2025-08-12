@@ -104,7 +104,7 @@ function Footer() {
           <div className="row wed-foot-link-1">
             <div className="col-md-5 foot-tc-mar-t-o ">
               <div className="d-flex align-items-center gap-4">
-                <img src="images/ernetlogo-white.png" />
+                <img src="/images/ernetlogo-white.png" />
                 <div>
                   <h4>Headquarters</h4>
                   <p className="mb-0">

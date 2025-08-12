@@ -467,7 +467,7 @@ function Header() {
             <a className="navbar-brand p-0" href="domain.html">
               <figure className="mb-0">
                 <img
-                  src="images/new-img.png"
+                  src="/images/new-img.png"
                   alt="header-logo"
                   loading="lazy"
                 />
@@ -492,39 +492,39 @@ function Header() {
             >
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link p-0 active" href="index.html">
+                  <Link className="nav-link p-0 active" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0" href="">
+                  <Link className="nav-link p-0" to="">
                     Plans and Pricing
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0 " href="#!">
+                  <Link className="nav-link p-0 " to="#!">
                     About Ernet
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0" href="#!">
+                  <Link className="nav-link p-0" to="#!">
                     {" "}
                     Benefits
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0" href="#!">
+                  <Link className="nav-link p-0" to="/hub">
                     More Options
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link p-0" href="faqs.html">
+                  <Link className="nav-link p-0" to="/faqs">
                     FAQ
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <div className="login-btn">
-                    <a >Panel Login</a>
+                    <Link to="/login">Panel Login</Link>
                   </div>
                 </li>
               </ul>
@@ -532,7 +532,7 @@ function Header() {
             <a className="navbar-brand p-0" href="domain.html">
               <figure className="mb-0">
                 <img
-                  src="images/g-20logo.png"
+                  src="/images/g-20logo.png"
                   alt="header-logo"
                   loading="lazy"
                 />
